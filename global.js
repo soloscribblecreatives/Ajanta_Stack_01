@@ -179,7 +179,7 @@ function toCaptureTime(page_id){
 		var nextSlideNo = currentSlideNo + 1 ;	
 	} 
 
-	if(nextSlideNo <= 10){ //Total slides present
+	if(nextSlideNo <= 12){ //Total slides present
 	// alert(nextSlideNo);
 	var tempNext = localStorage.getItem(currentContentId+"_"+contentName+"_slideNo_"+nextSlideNo);
 
@@ -281,10 +281,10 @@ else {
 	//custom slide changes ends here....
 
 	else {
-		if(page_id <= 10){
+		if(page_id <= 12){
 			page_id = page_id + 1;
 		//alert(page_id);
-		if(page_id == 11){
+		if(page_id == 13){
 			flag=1;
 		}
 	}
@@ -391,6 +391,12 @@ function set_pg_content(pg_id){
 		break;
 		case 10:
 		content='<link rel="stylesheet" type="text/css" href="slide10/slide10.css" media="screen"/><div class="s10_1"><img src="slide10/s10_1.png" width="1366" height="1024" alt=""/></div><div class="s10_2"><img src="slide10/s10_2.png"/></div><div class="s10_3"><img src="slide10/s10_3.png"/></div><div class="s10_4"><img src="slide10/s10_4.png"/></div><div class="s10_5"><img src="slide10/s10_5.png"/></div><div class="s10_6"><img src="slide10/s10_6.png"/></div>';
+		break;
+		case 11:
+		content='<link rel="stylesheet" type="text/css" href="slide11/slide11.css" media="screen"/><div class="s11_1"><img src="slide11/s11_1.png" width="1366" height="1024" alt=""/></div><div class="s11_2"><img src="slide11/s11_2.png"/></div><div class="s11_3"><img src="slide11/s11_3.png"/></div><div class="s11_4"><img src="slide11/s11_4.png"/></div><div class="s11_5"><img src="slide11/s11_5.png"/></div><div class="s11_6"><img src="slide11/s11_6.png"/></div><div class="s11_7"><img src="slide11/s11_7.png"/></div><div class="s11_8"><img src="slide11/s11_8.png"/></div><div class="s11_9"><img src="slide11/s11_9.png"/></div>';
+		break;
+		case 12:
+		content='<link rel="stylesheet" type="text/css" href="slide12/slide12.css" media="screen"/><div class="s12_1"><img src="slide12/s12_1.png" width="1366" height="1024" alt=""/></div><div class="s12_2"><img src="slide12/s12_2.png"/></div><div class="s12_3"><img src="slide12/s12_3.png"/></div><div class="s12_4"><img src="slide12/s12_4.png"/></div><div class="s12_5"><img src="slide12/s12_5.png"/></div><div class="s12_6"><img src="slide12/s12_6.png"/></div><div class="s12_7"><img src="slide12/s12_7.png"/></div><div class="s12_8"><img src="slide12/s12_8.png"/></div><div class="s12_9"><img src="slide12/s12_9.png"/></div>';
 		break;
 	}
 
