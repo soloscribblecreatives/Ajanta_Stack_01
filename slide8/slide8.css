@@ -28,8 +28,8 @@
   top: 150px;
   width: 693px;
   height: 64px;
-  animation: flipInXFlash 0.8s;
-  animation-delay: 1.5s;
+  animation: flipInX 0.7s;
+  animation-delay: 1s;
   animation-fill-mode: both;
   z-index: 2;
 }
@@ -41,7 +41,7 @@
   width: 488px;
   height: 212px;
   animation: fadeInUp 1s;
-  animation-delay: 2.5s;
+  animation-delay: 2s;
   animation-fill-mode: both;
   z-index: 2;
 }
@@ -53,7 +53,7 @@
   width: 858px;
   height: 181px;
   animation: fadeInLeft 1s;
-  animation-delay: 3.5s;
+  animation-delay: 3s;
   animation-fill-mode: both;
   z-index: 3;
 }
@@ -65,7 +65,7 @@
   width: 998px;
   height: 151px;
   animation: fadeInRight 1s;
-  animation-delay: 3.5s;
+  animation-delay: 3s;
   animation-fill-mode: both;
   z-index: 2;
 }

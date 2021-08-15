@@ -28,48 +28,128 @@
   top: 143px;
   width: 165px;
   height: 58px;
-  animation: flipInXFlash 0.8s;
-  animation-delay: 1.5s;
+  animation: flipInX 0.7s;
+  animation-delay: 1s;
   animation-fill-mode: both;
   z-index: 2;
 }
 
 .s3_4 {
   position: absolute;
-  left: 260px;
+  left: 459px;
   top: 162px;
-  width: 846px;
-  height: 299px;
+  width: 440px;
+  height: 186px;
   animation: fadeInUp 1s;
-  animation-delay: 2.5s;
+  animation-delay: 2s;
   animation-fill-mode: both;
   z-index: 2;
 }
 
 .s3_5 {
   position: absolute;
-  left: 647px;
-  top: 530px;
-  width: 652px;
-  height: 359px;
-  animation: bounceInRight 1s;
-  animation-delay: 3.5s;
+  left: 260px;
+  top: 385px;
+  width: 846px;
+  height: 76px;
+  animation: revealHorizontal 1s;
+  animation-delay: 3s;
   animation-fill-mode: both;
   z-index: 2;
 }
 
 .s3_6 {
   position: absolute;
-  left: 65px;
-  top: 528px;
-  width: 472px;
-  height: 371px;
-  animation: bounceInLeft 1s;
-  animation-delay: 4.5s;
+  left: 850px;
+  top: 530px;
+  width: 449px;
+  height: 359px;
+  animation: fadeInRight 1s;
+  animation-delay: 6s;
   animation-fill-mode: both;
   z-index: 2;
 }
 
+.s3_7 {
+  position: absolute;
+  left: 647px;
+  top: 702px;
+  width: 108px;
+  height: 53px;
+  animation: revealHorizontalSmall 2s;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  z-index: 2;
+}
+
+.s3_8 {
+  position: absolute;
+  left: 65px;
+  top: 528px;
+  width: 472px;
+  height: 371px;
+  animation: fadeInLeft 1s;
+  animation-delay: 4s;
+  animation-fill-mode: both;
+  z-index: 2;
+}
+
+@-webkit-keyframes revealHorizontalSmall {
+  0% {
+    clip: rect(0px,0px,100px,0px);
+	opacity: 1;
+  }
+  
+  100% {
+    clip: rect(0px,400px,100px,0px);
+	opacity: 1;
+  }
+}
+@keyframes revealHorizontalSmall {
+  0% {
+    clip: rect(0px,0px,100px,0px);
+	opacity: 1;
+  }
+  
+  100% {
+    clip: rect(0px,400px,100px,0px);
+	opacity: 1;
+  }
+}
+
+.revealHorizontalSmall {
+  -webkit-animation-name: revealHorizontalSmall;
+  animation-name: revealHorizontalSmall;
+}
+
+
+@-webkit-keyframes revealHorizontal {
+  0% {
+    clip: rect(0px,0px,100px,0px);
+	opacity: 1;
+  }
+  
+  100% {
+    clip: rect(0px,900px,100px,0px);
+	opacity: 1;
+  }
+}
+@keyframes revealHorizontal {
+  0% {
+    clip: rect(0px,0px,100px,0px);
+	opacity: 1;
+  }
+  
+  100% {
+    clip: rect(0px,900px,100px,0px);
+	opacity: 1;
+  }
+}
+
+.revealHorizontal {
+  -webkit-animation-name: revealHorizontal;
+  animation-name: revealHorizontal;
+}
 
 @-webkit-keyframes stampIn {
 	0% {

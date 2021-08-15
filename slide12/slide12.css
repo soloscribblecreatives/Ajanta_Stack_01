@@ -28,44 +28,43 @@
   top: 143px;
   width: 125px;
   height: 58px;
-  animation: flipInXFlash 0.8s;
-  animation-delay: 1.5s;
+  animation: flipInX 0.7s;
+  animation-delay: 1s;
   animation-fill-mode: both;
   z-index: 2;
 }
 
 .s12_4 {
   position: absolute;
-  left: 438px;
-  top: 246px;
+  left: 439px;
+  top: 105px;
   width: 488px;
   height: 212px;
   animation: fadeInUp 1s;
-  animation-delay: 2.5s;
+  animation-delay: 2s;
   animation-fill-mode: both;
   z-index: 2;
 }
 
 .s12_5 {
   position: absolute;
-  left: 80px;
-  top: 545px;
-  width: 778px;
-  height: 353px;
-  animation: bounceInLeft 0.7s;
-  animation-delay: 3.5s;
+  left: 293px;
+  top: 377px;
+  width: 780px;
+  height: 354px;
+  animation: zoomIn 0.7s;
+  animation-delay: 3s;
   animation-fill-mode: both;
   z-index: 3;
 }
 
 .s12_6 {
   position: absolute;
-  left: 115px;
-  top: 657px;
-  width: 695px;
-  height: 39px;
-  animation: revealHorizontal 0.7s;
-  clip: rect(0px,0px,55px,0px);
+  left: 331px;
+  top: 464px;
+  width: 223px;
+  height: 242px;
+  animation: flipInY 1s;
   animation-delay: 4s;
   animation-fill-mode: both;
   z-index: 6;
@@ -73,12 +72,11 @@
 
 .s12_7 {
   position: absolute;
-  left: 115px;
-  top: 740px;
-  width: 594px;
-  height: 39px;
-  animation: revealHorizontal 0.7s;
-  clip: rect(0px,0px,55px,0px);
+  left: 573px;
+  top: 464px;
+  width: 222px;
+  height: 242px;
+  animation: flipInY 1s;
   animation-delay: 4.5s;
   animation-fill-mode: both;
   z-index: 6;
@@ -86,12 +84,11 @@
 
 .s12_8 {
   position: absolute;
-  left: 115px;
-  top: 823px;
-  width: 473px;
-  height: 43px;
-  animation: revealHorizontal 0.7s;
-  clip: rect(0px,0px,55px,0px);
+  left: 814px;
+  top: 464px;
+  width: 223px;
+  height: 242px;
+  animation: flipInY 1s;
   animation-delay: 5s;
   animation-fill-mode: both;
   z-index: 6;
@@ -99,11 +96,11 @@
 
 .s12_9 {
   position: absolute;
-  left: 941px;
-  top: 563px;
-  width: 354px;
-  height: 343px;
-  animation: rollIn 0.5s;
+  left: 114px;
+  top: 775px;
+  width: 1139px;
+  height: 159px;
+  animation: fadeInUp 0.5s;
   animation-delay: 6s;
   animation-fill-mode: both;
   z-index: 8;

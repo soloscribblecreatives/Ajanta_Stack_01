@@ -28,8 +28,8 @@
   top: 143px;
   width: 165px;
   height: 58px;
-  animation: flipInXFlash 0.8s;
-  animation-delay: 1.5s;
+  animation: flipInX 0.7s;
+  animation-delay: 1s;
   animation-fill-mode: both;
   z-index: 2;
 }
@@ -41,7 +41,7 @@
   width: 488px;
   height: 212px;
   animation: fadeInUp 1s;
-  animation-delay: 2.5s;
+  animation-delay: 2s;
   animation-fill-mode: both;
   z-index: 2;
 }
@@ -53,7 +53,7 @@
   width: 601px;
   height: 411px;
   animation: fadeInLeft 1s;
-  animation-delay: 3.5s;
+  animation-delay: 3s;
   animation-fill-mode: both;
   z-index: 3;
 }
@@ -65,7 +65,7 @@
   width: 461px;
   height: 499px;
   animation: fadeInRight 1s;
-  animation-delay: 4.5s;
+  animation-delay: 4s;
   animation-fill-mode: both;
   z-index: 2;
 }
@@ -79,7 +79,7 @@
   height: 284px;
   animation:barup-ani 1s;
   clip: rect(500px,0px,0px,0px);
-  animation-delay: 5.5s;
+  animation-delay: 5s;
   animation-fill-mode: both;
   z-index: 2;
 }
@@ -92,7 +92,7 @@
   height: 145px;
   animation:barup-ani 1s;
   clip: rect(500px,0px,0px,0px);
-  animation-delay: 6.5s;
+  animation-delay: 6s;
   animation-fill-mode: both;
   z-index: 2;
 }

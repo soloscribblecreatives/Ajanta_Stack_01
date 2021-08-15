@@ -28,8 +28,8 @@
   top: 142px;
   width: 151px;
   height: 58px;
-  animation: flipInXFlash 0.8s;
-  animation-delay: 1.5s;
+  animation: flipInX 0.7s;
+  animation-delay: 1s;
   animation-fill-mode: both;
   z-index: 2;
 }
@@ -41,59 +41,88 @@
   width: 488px;
   height: 212px;
   animation: fadeInUp 1s;
-  animation-delay: 2.5s;
+  animation-delay: 2s;
   animation-fill-mode: both;
   z-index: 2;
 }
 
 .s6_5 {
   position: absolute;
-  left: 57px;
+  left: 121px;
   top: 469px;
-  width: 659px;
-  height: 379px;
-  animation: fadeInLeft 1s;
-  animation-delay: 3.5s;
+  width: 532px;
+  height: 104px;
+  animation: revealHorizontal 1s;
+  clip: rect(0px,0px,100px,0px);
+  animation-delay: 3s;
   animation-fill-mode: both;
   z-index: 3;
 }
 
 .s6_6 {
   position: absolute;
-  left: 801px;
-  top: 537px;
-  width: 511px;
-  height: 390px;
-  animation: fadeInRight 1s;
-  animation-delay: 4.5s;
+  left: 57px;
+  top: 611px;
+  width: 340px;
+  height: 237px;
+  animation: fadeInLeft 0.7s;
+  animation-delay: 4s;
   animation-fill-mode: both;
-  z-index: 2;
+  z-index: 3;
 }
 
 .s6_7 {
   position: absolute;
-  left: 948px;
-  bottom: 153px;
-  width: 102px;
-  height: 284px;
-  animation:barup-ani 1s;
-  clip: rect(500px,0px,0px,0px);
-  animation-delay: 5.5s;
+  left: 429px;
+  top: 611px;
+  width: 287px;
+  height: 237px;
+  animation:barup-ani 0.7s;
+  animation: fadeInRight 1s;
+  animation-delay: 5s;
   animation-fill-mode: both;
   z-index: 2;
 }
 
 .s6_8 {
   position: absolute;
-  left: 1118px;
-  bottom: 153px;
-  width: 90px;
-  height: 145px;
-  animation:barup-ani 1s;
-  clip: rect(500px,0px,0px,0px);
-  animation-delay: 6.5s;
+  left: 801px;
+  top: 537px;
+  width: 511px;
+  height: 390px;
+  animation: zoomIn 1s;
+  animation-delay: 6s;
   animation-fill-mode: both;
   z-index: 2;
+}
+
+
+@-webkit-keyframes revealHorizontalSmall {
+  0% {
+    clip: rect(0px,0px,100px,0px);
+	opacity: 1;
+  }
+  
+  100% {
+    clip: rect(0px,400px,100px,0px);
+	opacity: 1;
+  }
+}
+@keyframes revealHorizontalSmall {
+  0% {
+    clip: rect(0px,0px,100px,0px);
+	opacity: 1;
+  }
+  
+  100% {
+    clip: rect(0px,400px,100px,0px);
+	opacity: 1;
+  }
+}
+
+.revealHorizontalSmall {
+  -webkit-animation-name: revealHorizontalSmall;
+  animation-name: revealHorizontalSmall;
 }
 
 
@@ -225,23 +254,23 @@
 
 @-webkit-keyframes revealHorizontal{
   0% {
-    clip: rect(0px,0px,55px,0px);
+    clip: rect(0px,0px,110px,0px);
 	opacity: 1;
   }
   
   100% {
-    clip: rect(0px,1100px,55px,0px);
+    clip: rect(0px,600px,110px,0px);
 	opacity: 1;
   }
 }
 @keyframes revealHorizontal {
   0% {
-    clip: rect(0px,0px,55px,0px);
+    clip: rect(0px,0px,110px,0px);
 	opacity: 1;
   }
   
   100% {
-    clip: rect(0px,1100px,55px,0px);
+    clip: rect(0px,600px,110px,0px);
 	opacity: 1;
   }
 }

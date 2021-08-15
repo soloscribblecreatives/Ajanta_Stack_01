@@ -36,27 +36,59 @@
 
 .s1_4 {
   position: absolute;
-  left: 94px;
-  top: 464px;
-  width: 456px;
+  left: 891px;
+  top: 290px;
+  width: 244px;
   height: 241px;
-  animation: fadeInLeft 1s;
+  animation: fadeInRightOut 3.5s;
   animation-delay: 2.5s;
   animation-fill-mode: both;
   z-index: 2;
 }
 
-.s1_5 {
-  position: absolute;
-  left: 650px;
-  top: 483px;
-  width: 270px;
-  height: 204px;
-  animation: fadeInRight 1s;
-  animation-delay: 2.5s;
-  animation-fill-mode: both;
-  z-index: 2;
+@-webkit-keyframes fadeInRightOut {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  
+  40% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
+@keyframes fadeInRightOut {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  40% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.fadeInRightOut {
+  -webkit-animation-name: fadeInRightOut;
+  animation-name: fadeInRightOut;
+}
+
 
 @-webkit-keyframes stampIn {
 	0% {
