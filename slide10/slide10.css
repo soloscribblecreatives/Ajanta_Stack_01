@@ -52,7 +52,7 @@
   top: 549px;
   width: 587px;
   height: 286px;
-  animation: bounceInLeft 1s;
+  animation: fadeInLeft 1s;
   animation-delay: 3.5s;
   animation-fill-mode: both;
   z-index: 3;
@@ -64,7 +64,7 @@
   top: 557px;
   width: 449px;
   height: 289px;
-  animation: bounceInRight 1s;
+  animation: fadeInRight 1s;
   animation-delay: 3.5s;
   animation-fill-mode: both;
   z-index: 2;
