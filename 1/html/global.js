@@ -179,7 +179,7 @@ function toCaptureTime(page_id){
 		var nextSlideNo = currentSlideNo + 1 ;	
 	} 
 
-	if(nextSlideNo <= 2){ //Total slides present
+	if(nextSlideNo <= 4){ //Total slides present
 	// alert(nextSlideNo);
 	var tempNext = localStorage.getItem(currentContentId+"_"+contentName+"_slideNo_"+nextSlideNo);
 
@@ -281,10 +281,10 @@ else {
 	//custom slide changes ends here....
 
 	else {
-		if(page_id <= 2){
+		if(page_id <= 4){
 			page_id = page_id + 1;
 		//alert(page_id);
-		if(page_id == 3){
+		if(page_id == 5){
 			flag=1;
 		}
 	}
@@ -363,10 +363,16 @@ function set_pg_content(pg_id){
 	
 	switch(pg_id){
 		case 1:
-		content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide1/1.jpg" width="1366" height="1024" alt=""/></div>';
+		content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="s1_1"><img src="slide1/s1_1.png" width="1366" height="1024" alt=""/></div><div class="s1_2"><img src="slide1/s1_2.png"/></div><div class="s1_3"><img src="slide1/s1_3.png"/></div><div class="s1_4"><img src="slide1/s1_4.png"/></div><div class="s1_5"><img src="slide1/s1_5.png"/></div>';
 		break;
 		case 2:
-		content='<link rel="stylesheet" type="text/css" href="slide2/slide2.css" media="screen"/><div class="background"><img src="slide2/1.jpg" width="1366" height="1024" alt=""/></div>';
+		content='<link rel="stylesheet" type="text/css" href="slide2/slide2.css" media="screen"/><div class="s2_1"><img src="slide2/s2_1.png" width="1366" height="1024" alt=""/></div><div class="s2_2"><img src="slide2/s2_2.png"/></div><div class="s2_3"><img src="slide2/s2_3.png"/></div><div class="s2_4"><img src="slide2/s2_4.png"/></div><div class="s2_5"><img src="slide2/s2_5.png"/></div><div class="s2_6"><img src="slide2/s2_6.png"/></div><div class="s2_7"><img src="slide2/s2_7.png"/></div><div class="s2_8"><img src="slide2/s2_8.png"/></div>';
+		break;
+		case 3:
+		content='<link rel="stylesheet" type="text/css" href="slide3/slide3.css" media="screen"/><div class="s3_1"><img src="slide3/s3_1.png" width="1366" height="1024" alt=""/></div><div class="s3_2"><img src="slide3/s3_2.png"/></div><div class="s3_3_1"><div class="s3_3"><img src="slide3/s3_3.png"/></div></div><div class="s3_4"><img src="slide3/s3_4.png"/></div><div class="s3_5_1"><div class="s3_5"><img src="slide3/s3_5.png"/></div></div>';
+		break;
+		case 4:
+		content='<link rel="stylesheet" type="text/css" href="slide4/slide4.css" media="screen"/><div class="s4_1"><img src="slide4/s4_1.png" width="1366" height="1024" alt=""/></div><div class="s4_2"><img src="slide4/s4_2.png"/></div><div class="s4_3"><img src="slide4/s4_3.png"/></div><div class="s4_4"><img src="slide4/s4_4.png"/></div><div class="s4_5_1"><div class="s4_5"><img src="slide4/s4_5.png"/></div></div><div class="s4_6"><img src="slide4/s4_6.png"/></div><div class="s4_7_1"><div class="s4_7"><img src="slide4/s4_7.png"/></div></div><div class="s4_8"><img src="slide4/s4_8.png"/></div>';
 		break;
 	}
 
@@ -442,36 +448,6 @@ function checkBtns(refNum){
 	switch(refNum){
 		case 1:
 		open_page('',3);
-		break;
-		case 2:
-		open_page('',5);
-		break;
-		case 3:
-		open_page('',6);
-		break;
-		case 4:
-		open_page('',8);
-		break;
-		case 5:
-		open_page('',2);
-		break;
-		case 6:
-		open_page('',2);
-		break;
-		case 7:
-		open_page('',2);
-		break;
-		case 8:
-		open_page('',2);
-		break;
-		case 9:
-		open_page('',2);
-		break;
-		case 10:
-		open_page('',2);
-		break;
-		case 11:
-		open_page('',2);
 		break;
 	}
 }
