@@ -53,7 +53,7 @@
   top: 545px;
   width: 356px;
   height: 407px;
-  animation: rollIn 0.7s;
+  animation: fadeInRight 0.7s;
   animation-delay: 3s;
   animation-fill-mode: both;
   z-index: 2;
@@ -65,7 +65,7 @@
   top: 431px;
   width: 315px;
   height: 35px;
-  animation: fadeInLeft 0.7s;
+  animation: fadeInDown 0.7s;
   animation-delay: 4s;
   animation-fill-mode: both;
   z-index: 2;
@@ -77,7 +77,7 @@
   top: 477px;
   width: 204px;
   height: 37px;
-  animation: fadeInRight 0.7s;
+  animation: zoomIn 0.7s;
   animation-delay: 4s;
   animation-fill-mode: both;
   z-index: 2;
